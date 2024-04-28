@@ -13,146 +13,334 @@
       <!--=============== CSS ===============-->
       <link rel="stylesheet" href="assets/css/styles.css">
 
-      <title>Responsive cactus website - Bedimcode</title>
+      <title>STAY NATTY</title>
    </head>
    <body>
       <!--==================== HEADER ====================-->
       <header class="header" id="header">
-        <nav class="nav container">
-            <a href="" class="nav logo">
-                <i class="ri-cactus-line"></i> Cactus
+         <nav class="nav container">
+            <a href="#" class="nav__logo">
+               <i class="ri-cactus-line"></i> StayNatty
             </a>
+
             <div class="nav__menu" id="nav-menu">
-                <ul class="nav__list">
-                    <li class="nav__item">
-                        <a href="#home" class="nav__link">Home</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#workoutlist" class="nav__link">Workout List</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#workout" class="nav__link">Workout Plan</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#meal" class="nav__link">Meal Plan</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#story" class="nav__link">Our Story</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#contact" class="nav__link">Contact Us</a>
-                    </li> 
-                </ul>
+               <ul class="nav__list">
+                  <li class="nav__item">
+                     <a href="#home" class="nav__link active-link">Home</a>
+                  </li>
 
-                <!-- Close button -->
-                <div class="nav__close" id="nav-close">
-                    <i class="ri-close-line"></i>
-                </div>
+                  <li class="nav__item">
+                     <a href="#new" class="nav__link">Workout Category</a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="#shop" class="nav__link">Workout List</a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="#care" class="nav__link">Tips & Tricks</a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="#contact" class="nav__link">Contact</a>
+                  </li>
+               </ul>
+
+               <!-- Close button -->
+               <div class="nav__close" id="nav-close">
+                  <i class="ri-close-line"></i>
+               </div>
             </div>
-            
+
             <div class="nav__actions">
-                <i class="ri-user-line"></i>
-                <i class="ri-book-3-fill"></i>
+               <i class="ri-user-line"></i>
+               <i class="ri-shopping-cart-line"></i>
 
-                <!-- Toggle Button -->
-                <div class="div nav__toggle" id="nav-toggle">
-                    <i class="ri-menu-2-line"></i>
-                </div>
+               <!-- Toggle button -->
+               <div class="nav__toggle" id="nav-toggle">
+                  <i class="ri-menu-line"></i>
+               </div>
             </div>
-        </nav>
-
+         </nav>
       </header>
 
       <!--==================== MAIN ====================-->
       <main class="main">
          <!--==================== HOME ====================-->
          <section class="home section" id="home">
-            <div class="home__containter container grid">
-                <img src="assets/img/home-cactus.png" alt="image" class="home__img"> 
+            <div class="home__container container grid">
+               <img src="assets/img/workout.jpg" alt="image" class="home__img">
 
-                <div class="home__data">
-                    <h1 class="home__title">
-                        Place Holder
-                    </h1>
-                    <p class="home__description">
-                        Placeholder
-                    </p>
-                    <div class="home__buttons">
-                        <a href="#" class="button">
-                            <span>
-                                <i class="ri-arrow-right-line"></i>
-                            </span>
-                            FIND YOUR PLAN
-                        </a>
-                        <a href="#" class="button__link">MORE DETAILS</a>
-                    </div>
-                </div>
+               <div class="home__data">
+                  <h1 class="home__title">
+                     EASY <br>
+                     <span>WORKOUTS</span> TO <br>
+                     GET IN SHAPE<br>
+                  </h1>
+
+                  <p class="home__description">
+                     We will help recommend easy workouts you can try at the gym.
+                  </p>
+
+                  <div class="home__buttons">
+                     <a href="#" class="button">
+                        <span>
+                           <i class="ri-arrow-right-line"></i>
+                        </span>
+   
+                        FIND OUT MORE
+                     </a>
+   
+                     <a href="#" class="button__link">MORE DETAILS</a>
+                  </div>
+               </div>
             </div>
          </section>
 
-         <!--==================== WORKOUT LIST ====================-->
-         <section class="workoutlist section" id="workoutlist">
-            <div class="workoutlist__container container grid">
-                <div class="new__data">
-                    <h2 class="section__title">
-                        BUILD YOUR BODY<br>STAY NATTY
-                    </h2>
+         <!--==================== NEWS ====================-->
+         <section class="new section" id="new">
+            <div class="new__container container grid">
+               <div class="new__data">
+                  <h2 class="section__title">
+                     START YOUR <br> JOURNEY
+                  </h2>
 
-                    <p class="new__description">
-                        Placeholder
-                    </p>
-                </div>
+                  <p class="new__description">
+                     Select from three categories of workouts.
+                  </p>
+               </div>
 
-                <div class="new__content grid">
-                    <article class="new__card">
-                        <img src="assets/img/new-cactus-1.png" alt="image" class="new__img">
-                        <h2 class="new__title">Strength Training</h2>
-                    </article>
+               <div class="new__content grid">
+                  <article class="new__card">
+                     <img src="assets/img/strength.jpg" alt="image" class="new__img">
+                     <h2 class="new__title">Strength Training</h2>
+                  </article>
 
-                    <article class="new__card">
-                        <img src="assets/img/new-cactus-2.png" alt="iamge" class="new__img">
-                        <h2 class="new__title">Core</h2>
-                    </article>
-                    
-                    <article class="new__card">
-                        <img src="assets/img/new-cactus-2.png" alt="image" class="new__img">
-                        <h2 class="new__title">Crossift</h2>
-                    </article>
-                </div>
+                  <article class="new__card">
+                     <img src="assets/img/core.png" alt="image" class="new__img">
+                     <h2 class="new__title">Core Exercises</h2>
+                  </article>
+
+                  <article class="new__card">
+                     <img src="assets/img/crossfit.jpg" alt="image" class="new__img">
+                     <h2 class="new__title">Crossfit</h2>
+                  </article>
+               </div>
             </div>
          </section>
 
-         <!--==================== WORKOUT ====================-->
-         <section class="workout section" id="workout">
-            
+         <!--==================== SHOP ====================-->
+         <section class="shop section" id="shop">
+            <h2 class="section__title">
+               THE BEST WORKOUTS
+            </h2>
+
+            <div class="shop__container container grid">
+               <article class="shop__card">
+                  <img src="assets/img/curls.jpg" alt="image" class="shop__img">
+
+                  <h3 class="shop__title">Bicep <br> Curls</h3>
+                  <span class="shop__price">EASY TO DO</span>
+
+                  <button class="shop__button">
+                     <i class="ri-shopping-bag-line"></i>
+                  </button>
+               </article>
+
+               <article class="shop__card">
+                  <img src="assets/img/bench.jpg" alt="image" class="shop__img">
+
+                  <h3 class="shop__title">Bench <br> Presses</h3>
+                  <span class="shop__price">A Bit Hard</span>
+
+                  <button class="shop__button">
+                     <i class="ri-shopping-bag-line"></i>
+                  </button>
+               </article>
+
+               <article class="shop__card">
+                  <img src="assets/img/deadlift.jpg" alt="image" class="shop__img">
+
+                  <h3 class="shop__title">Squats <br> & Deadlifts</h3>
+                  <span class="shop__price">HARD</span>
+
+                  <button class="shop__button">
+                     <i class="ri-shopping-bag-line"></i>
+                  </button>
+               </article>
+            </div>
          </section>
 
-         <!--==================== MEAL PLAN ====================-->
-         <section class="care section" id="meal">
-            
-         </section>
+         <!--==================== CARE ====================-->
+         <section class="care section" id="care">
+            <h2 class="section__title">
+               TIPS & TRICKS <br> FOR YOU
+            </h2>
 
-        <!--==================== OUR STORY ====================-->
-        <section class="story section" id="story">
-            
-        </section>
+            <div class="care__container container grid">
+               <img src="assets/img/care.jpg" alt="image" class="care__img">
+
+               <ul class="care__list">
+                  <li class="care__item">
+                     <i class="ri-checkbox-fill"></i>
+                     <p>
+                        Focus on your breathing.
+                     </p>
+                  </li>
+
+                  <li class="care__item">
+                     <i class="ri-checkbox-fill"></i>
+                     <p>
+                        Have good form throughout.
+                     </p>
+                  </li>
+
+                  <li class="care__item">
+                     <i class="ri-checkbox-fill"></i>
+                     <p>
+                        Try to complete each rep until failure.
+                     </p>
+                  </li>
+
+                  <li class="care__item">
+                     <i class="ri-checkbox-fill"></i>
+                     <p>
+                        Stay Hydrated and Well Fed.
+                     </p>
+                  </li>
+
+               </ul>
+            </div>
+         </section>
 
          <!--==================== CONTACT ====================-->
          <section class="contact section" id="contact">
-            
+            <h2 class="section__title">
+               START YOUR JOURNEY <br> CONTACT US
+            </h2>
+
+            <div class="contact__container container grid">
+               <img src="assets/img/end.jpg" alt="image" class="contact__img">
+
+               <div class="contact__content">
+                  <div>
+                     <h3 class="contact__title">Write to us</h3>
+
+                     <div class="contact__social">
+                        <a href="" target="">
+                           <i class="ri-whatsapp-fill"></i>
+                        </a>
+
+                        <a href="" target="">
+                           <i class="ri-messenger-fill"></i>
+                        </a>
+
+                        <a href="" target="">
+                           <i class="ri-mail-fill"></i>
+                        </a>
+                     </div>
+                  </div>
+
+                  <div>
+                     <h3 class="contact__title">Call us at the numbers</h3>
+
+                     <address class="contact__info">
+                        +855 12 910 920 <br>
+                     </address>
+                  </div>
+
+                  <div>
+                     <h3 class="contact__title">Find us here</h3>
+
+                     <address class="contact__info">
+                        Phnom Penh - Cambodia <br>
+                     </address>
+                  </div>
+               </div>
+            </div>
          </section>
       </main>
 
       <!--==================== FOOTER ====================-->
       <footer class="footer">
-         
+         <div class="footer__container container grid">
+            <div>
+               <a href="#" class="footer__logo">
+                  <i class="ri-cactus-line"></i> StayNatty
+               </a>
+
+               <p class="footer__description">Choose the best <br> workout for your home.</p>
+            </div>
+
+            <div class="footer__content grid">
+               <div>
+                  <h3 class="footer__title">COMPANY</h3>
+
+                  <ul class="footer__links">
+                     <li>
+                        <a href="#" class="footer__link">About Us</a>
+                     </li>
+                     
+                     <li>
+                        <a href="#" class="footer__link">Products</a>
+                     </li>
+                     
+                     <li>
+                        <a href="#" class="footer__link">Features</a>
+                     </li>
+                  </ul>
+               </div>
+
+               <div>
+                  <h3 class="footer__title">INFORMATION</h3>
+
+                  <ul class="footer__links">
+                     <li>
+                        <a href="#" class="footer__link">Blogs & News</a>
+                     </li>
+
+                     <li>
+                        <a href="#" class="footer__link">Contacts Us</a>
+                     </li>
+                     
+                     <li>
+                        <a href="#" class="footer__link">FAQs</a>
+                     </li>
+                  </ul>
+               </div>
+
+               <div>
+                  <h3 class="footer__title">SOCIAL MEDIA</h3>
+
+                  <div class="footer__social">
+                     <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+                        <i class="ri-facebook-circle-fill"></i>
+                     </a>
+
+                     <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+                        <i class="ri-instagram-fill"></i>
+                     </a>
+                     
+                     <a href="https://twitter.com/" target="_blank" class="footer__social-link">
+                        <i class="ri-twitter-x-line"></i>
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+         <span class="footer__copy">
+            &#169; All Rights Reserved By StayNatty
+         </span>
       </footer>
 
       <!--========== SCROLL UP ==========-->
-
+      <a href="#" class="scrollup" id="scroll-up">
+         <i class="ri-arrow-up-line"></i>
+      </a>
 
       <!--=============== SCROLLREVEAL ===============-->
-      <script src=""></script>
+      <script src="assets/js/scrollreveal.min.js"></script>
 
       <!--=============== MAIN JS ===============-->
       <script src="assets/js/main.js"></script>
